@@ -1,0 +1,12 @@
+.container {
+    gap: var(--padding);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: var(--padding);
+    padding-inline: var(--padding);
+    padding-bottom: var(--padding-md);
+    border-bottom : 1px solid var(--secondary);
+    overflow: auto;
+}
